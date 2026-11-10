@@ -2,7 +2,7 @@
 
 A listing, photo, and launch cadence for handmade sellers.
 
-Quiz → personalized plan preview → paywall (founding list, **no real payments**).
+Quiz → personalized plan preview → email capture → Gumroad checkout (Monthly or Quarterly). Payments processed by Gumroad. Renews automatically. Cancel anytime from your Gumroad library.
 
 ## Run locally
 ```bash

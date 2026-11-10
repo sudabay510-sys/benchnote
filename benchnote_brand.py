@@ -72,7 +72,7 @@ BRAND = {
     "how_steps": [
         {"title": "Quiz your shop", "text": "Craft, stage, channels, time, and struggles."},
         {"title": "Preview your rhythm", "text": "This week’s focus plus your weekly routine."},
-        {"title": "Join the founding list", "text": "No charge today — we’ll email when checkout opens."},
+        {"title": "Start your plan", "text": "Enter your email, then complete checkout on Gumroad."},
     ],
     "features": [
         {"title": "30-day calendar", "text": "Listings, photos, and posts mapped to your hours."},
@@ -89,14 +89,20 @@ BRAND = {
     "faq": [
         {"q": "Will Benchnote get me more Etsy sales?", "a": "We don’t promise sales or rankings. It gives you a steady plan for the work you control."},
         {"q": "Is this SEO software?", "a": "No. It includes an educational title-and-tag checklist, not keyword tools."},
+        {"q": "How does billing work?", "a": "Choose Monthly or Quarterly, save your email, then complete payment on Gumroad. Renews automatically. Cancel anytime from your Gumroad library."},
         {"q": "I sell at markets, not online. Does it fit?", "a": "Yes — choose craft fairs in the quiz and the plan adjusts."},
     ],
     "pricing": [
-        {"id": "4w", "name": "4-week rhythm", "intro": "$15", "period": "first 4 weeks", "renewal": "$19 / 4 weeks", "includes": ["30-day calendar", "Pricing worksheet", "Listing templates"]},
-        {"id": "12w", "name": "12-week season", "intro": "$39", "period": "first 12 weeks", "renewal": "$49 / 12 weeks", "featured": True, "includes": ["Everything in 4-week", "Launch timeline", "Seasonal packs"]},
+        {"id": "monthly", "name": "Monthly", "price": "$19", "period": "/ month",
+         "intro": "$19", "renewal": "$19 / month", "renewal_note": "Renews automatically. Cancel anytime from your Gumroad library.",
+         "includes": ["30-day calendar", "Pricing worksheet", "Listing templates"]},
+        {"id": "quarterly", "name": "Quarterly", "price": "$49", "period": "every 3 months",
+         "intro": "$49", "renewal": "$49 every 3 months", "renewal_note": "Renews automatically. Cancel anytime from your Gumroad library.", "featured": True,
+         "includes": ["Everything in Monthly", "Launch timeline", "Seasonal packs"]},
     ],
+    "checkout_url": "https://solvfix.gumroad.com/l/wgmuii",
     "disclaimer_short": "Planning education only. Not affiliated with Etsy. No sales, ranking, or income guarantees.",
-    "disclaimer_long": "Benchnote provides general planning and education for handmade sellers. It is not affiliated with Etsy or any marketplace, does not guarantee sales, search ranking, or income, and is not financial or tax advice. Follow each marketplace’s seller policies. No payments are processed on this site.",
+    "disclaimer_long": "Benchnote provides general planning and education for handmade sellers. It is not affiliated with Etsy or any marketplace, does not guarantee sales, search ranking, or income, and is not financial or tax advice. Follow each marketplace’s seller policies. Payments are processed by Gumroad, not on this site.",
     "font_url": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;700&display=swap",
     "fonts": ("Young Serif", "Figtree"),
     "questions": Q, "generate_plan": plan,
