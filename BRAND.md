@@ -59,3 +59,24 @@ Encouraging studio-mate. Hands-on, a little craft-y, never salesy.
 - Use fake scarcity in launch copy.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Maker’s pegboard and hang tags. A studio wall: pegboard dots behind everything, results on hang tags, stitched dashed borders, and a ribbon countdown to launch.
+- **Type:** Young Serif (display) / Figtree (body)
+- **Voice:** An encouraging studio-mate: hands-on, a little crafty, honest about what selling takes.
+- **Persona (design assumption, not research):** Ana, weekend ceramicist with an Etsy shop (assumption): Day job, 15 hours a week at the wheel. Shop goes quiet for weeks between bursts of listing.
+
+| Color | Hex |
+|---|---|
+| Linen | `#FBF6F1` |
+| Plum | `#7B3F6E` |
+| Marigold | `#E9A23B` |
+| Sage | `#8DAA91` |
+| Ink plum | `#2E2230` |
+| Muted plum | `#5E4F60` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/benchnote/brand.html`.

@@ -1,0 +1,31 @@
+/* Benchnote identity layer, Nov 2026 refresh: Maker’s pegboard and hang tags. Loaded after brand.css; visual only. */
+:root{--bg:#FBF6F1;--bg-alt:#F0E4D8;--card:#FFFFFF;--ink:#2E2230;--muted:#5E4F60;--line:#E6D9CC;--accent:#7B3F6E;--accent-2:#62305A;--on-accent:#FFFFFF;--hi:#E9A23B;--radius:12px;--focus:#7B3F6E;
+--font-display:'Young Serif', Georgia, serif;--font-body:'Figtree', system-ui, sans-serif;--tracking:-0.01em;--cta-band-bg:#7B3F6E;--cta-band-ink:#FFFFFF;--cta-band-btn:#E9A23B;--cta-band-btn-ink:#2E2230;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2,h3{font-weight:400}
+.hero,.section.alt{background:radial-gradient(circle,rgba(123,63,110,.16) 2.4px,transparent 2.8px) 0 0/26px 26px,#F0E4D8}
+.hero-card,.pill-card,.feature,.price-card,.journey-card,.plan-section{border:0;outline:1.5px dashed #C9B2A6;outline-offset:-9px;box-shadow:0 10px 24px rgba(46,34,48,.08)}
+.hero-card{border-radius:18px 18px 18px 18px;padding-top:2.6rem;transform:rotate(-1deg)}
+.hero-card::before,.plan-section::before{content:"";position:absolute;top:.85rem;left:50%;width:.9rem;height:.9rem;margin-left:-.45rem;border-radius:50%;background:#F0E4D8;border:2px solid #7B3F6E}
+.plan-section{position:relative;padding-top:2.4rem;border-radius:14px}
+.dot{background:#E9A23B}
+.choice{border-radius:14px;border-style:dashed;border-width:1.5px;border-color:#C9B2A6}
+.choice:has(input:checked){border-style:solid;border-color:var(--accent);background:#F7EEF4;box-shadow:none}
+.progress{height:.6rem;background:#F0E4D8}.progress-bar{background:repeating-linear-gradient(90deg,var(--accent) 0 10px,#9A5A8B 10px 14px)}
+.step-num,.journey-step{background:#E9A23B;color:var(--ink);border-radius:50% 50% 50% 8px}
+.steps li{border-style:dashed}
+.btn{border-radius:999px}
+.lock-banner{background:var(--card);border:1.5px dashed var(--accent)}
+.eyebrow{color:var(--accent)}
+.safety{background:#F4F7F1;border-color:#8DAA91;border-left-color:#5E7D62}
