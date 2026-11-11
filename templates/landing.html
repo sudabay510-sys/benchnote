@@ -2,10 +2,9 @@
 {% block title %}{{ brand.name }} — {{ brand.tagline }}{% endblock %}
 {% block body_class %}page-landing{% endblock %}
 {% block content %}
-<section class="hero">
+<section class="hero ly-hero">
   <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow">{{ brand.eyebrow }}</p>
+    <div class="hero-copy bn-copy"><p class="eyebrow">{{ brand.eyebrow }}</p>
       <h1>{{ brand.hero_title }}</h1>
       <p class="lede">{{ brand.hero_lede }}</p>
       <div class="hero-actions">
@@ -15,22 +14,23 @@
       <p class="tiny muted">{{ brand.honesty_line }}</p>
       {% if brand.get('safety_note') %}
 <aside class="safety" role="note" aria-label="Safety note"><strong>{{ brand.safety_title or "Important" }}:</strong> {{ brand.safety_note }}</aside>
-{% endif %}
+{% endif %}</div>
+    <div class="bn-peg" aria-label="Sample plan peek as hang tags">
+      {% for b in brand.sample_peek %}<div class="bn-tag"><span class="bn-string" aria-hidden="true"></span><p>{{ b }}</p></div>{% endfor %}
+      <p class="card-fade">Sample plan peek · full plan unlocks after your quiz</p>
     </div>
-    <div class="hero-card" aria-hidden="true">
-      <div class="card-label">Sample plan peek</div>
-      <ul class="peek-list">
-        {% for b in brand.sample_peek %}
-        <li><span class="dot"></span>{{ b }}</li>
-        {% endfor %}
-      </ul>
-      <div class="card-fade">Full plan unlocks after your quiz</div>
-    </div>
+  </div>
+</section>
+<section class="section bn-ribbon-s" aria-labelledby="bnr-h">
+  <div class="wrap">
+    <p class="eyebrow">How a week moves</p>
+    <h2 id="bnr-h">Making first, then the shop desk</h2>
+    <ol class="bn-ribbon">{% for s in brand.how_steps %}<li><b>{{ loop.index }}</b>{{ s.title }}</li>{% endfor %}</ol>
   </div>
 </section>
 
 
-<section class="section journey" id="journey" aria-labelledby="journey-h">
+<section class="section journey bn-tags" id="journey" aria-labelledby="journey-h">
   <div class="wrap">
     <p class="eyebrow">Your journey</p>
     <h2 id="journey-h">{{ brand.journey_title or "Where it usually breaks — and what your plan does" }}</h2>
