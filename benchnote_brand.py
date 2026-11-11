@@ -103,7 +103,7 @@ BRAND = {
     "checkout_url": "https://solvfix.gumroad.com/l/wgmuii",
     "disclaimer_short": "Planning education only. Not affiliated with Etsy. No sales, ranking, or income guarantees.",
     "disclaimer_long": "Benchnote provides general planning and education for handmade sellers. It is not affiliated with Etsy or any marketplace, does not guarantee sales, search ranking, or income, and is not financial or tax advice. Follow each marketplace’s seller policies. Payments are processed by Gumroad, not on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700;800&display=swap",
     "fonts": ("Young Serif", "Figtree"),
     "questions": Q, "generate_plan": plan,
     "voice": "Encouraging studio-mate. Hands-on, a little craft-y, never salesy.",
